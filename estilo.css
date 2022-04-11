@@ -1,0 +1,666 @@
+/* css reset */
+
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	}
+
+body, html{
+    background-color:#F2F3F6;
+    width:100%;
+    overflow-x: hidden;
+
+ 
+   
+}
+
+#search_mobile {
+    visibility: hidden;
+}
+  
+#menu_humburguer {
+    visibility: hidden;
+}
+
+
+    @font-face{
+        font-family:Lato;
+        src:url(fontes/Lato/Lato-Regular.ttf);
+        }
+    
+
+
+
+
+.texto{
+	font-family:novafonte;
+	font-size:50px;
+	}
+
+main{
+	position:relative;
+	width:100%;
+    height:auto;
+
+	margin:auto;
+   
+	}
+
+#logo img {
+    margin-left: 46px;
+}
+
+#slide {
+    width: 1098px;
+    height: 558px;
+    background: #F7F0F0;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    margin: 0 auto;
+    
+
+}
+
+
+#caixas {
+    position: relative;
+    width: 1240px;
+    height: auto;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 105px;
+}
+
+
+
+
+#titulo_meio a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0 auto;
+    -webkit-text-stroke: 1px #000;
+    text-align: center;
+    color: #E51D1D;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-top: 38px;
+    
+}
+
+.a {
+    width: 50%;
+    float: left;
+  
+    margin: 20px auto;
+}
+.b {
+    width: 50%;
+    float: left;
+    
+    margin: 20px auto;
+}
+
+.c {
+    width: 50%;
+    float: left;
+  
+    margin: 20px auto;
+}
+.d {
+    width: 50%;
+    float: left;
+   
+    margin: 20px auto;
+}
+
+.e {
+    width: 50%;
+    float: left;
+   
+    margin: 20px auto;
+}
+
+.f{
+   
+        width: 50%;
+        float: left;
+       
+        margin: 20px auto;
+
+    
+}
+#caixa a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    color: #000000;
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+
+
+
+
+#caixas div{
+    width: 500px;
+    height: 470px;
+    float: left;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+}
+
+#parte_superior {
+    position:relative;
+	width:100%;
+	height:181px;
+	display:flex;
+
+	flex-direction:row;
+	justify-content:space-between;
+
+    background-color:#F2F3F6;
+}    
+
+#cabecalho{
+	position:relative;
+    top:0;
+    left:0;
+    z-index:3;
+	width:100%;
+	height: auto;
+    background-color:#252527    ;
+    display:flex;
+	flex-direction: column;
+
+	justify-content: space-around;
+	}
+
+#menu_esquerdo{
+    position: relative;
+    width: 100%;
+    height: 64px;
+    display: flex;
+    
+    margin-left: 163px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #252527;
+
+    
+
+  	}
+
+      #menu_esquerdo a{
+        font-family: 'Lato';
+        font-size: 25px;
+     color: #fff;
+text-align: left;
+text-decoration: none;
+margin-right:40px;
+      }
+      #menu_esquerdo a:hover{
+     color: #E51D1D;     ;
+      transition: 1s;
+      }
+
+
+
+
+#miolo{
+	position:relative;
+	width:100%;
+	height: 644px;
+	margin:auto;
+	margin-top:50px;
+    
+    background-color:#F2F3F6;
+	}
+
+
+#titulo_meio{
+
+    display: flex;
+    position: relative;
+ 
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 100px;
+   
+    height: 3124px;
+
+background: #F6F6F6;
+box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+	}
+
+
+#contatos {
+    height: 2495px;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+}
+.contato {
+    height: 161px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+ 
+#titulo_meio p {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+height:auto;
+margin-bottom: 30px;
+}
+
+#clinica{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 145px; 
+}
+
+
+#textos{
+margin-top: 76px;
+width:1122px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#textos2{
+    margin-top: 76px;
+    width:796px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    
+    }
+
+#nossos_serviços {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin: auto;
+    -webkit-text-stroke: 1px #000;
+    text-align: center;
+    color: #E51D1D;
+    width: 100%;
+    display: flex;
+    position: relative;
+ 
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+ul#caixa3{
+
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 1105px;
+    display: flex;
+    margin-top: 93px;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+ul#caixa2 {
+
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 1105px;
+    display: flex;
+    margin-top: 93px;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+
+
+
+
+#caixa3 ul li{
+    width: 100%;
+    float: left;
+
+    
+}
+
+
+
+#caixa2 ul li{
+    width: 100%;
+    float: left;
+
+    
+}
+
+#caixa3 p,#caixa2 p{
+    margin-top: 31px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    
+    text-align: center;
+    color: #454343;
+}
+    
+
+
+.c, .d, .e, .f{
+    margin-top:161px;
+}
+#caixas div img{
+    float:left;
+    width:100%;
+}
+
+#lado_esquerdo p{
+	font-family:verdana;
+	font-size:20px;	
+	color: #FFF;
+	height:100px;
+	}
+
+#lado_direito{
+    position: relative;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 35px;
+    align-items: center;
+    margin-top: 79px;
+	}
+
+#topo{
+	position:relative;
+	width:100%;
+	height:auto;
+	}
+
+
+
+
+    #titulo_menu{
+            position:absolute;
+            width:100%;
+            height:auto;
+            top:400px;
+            left:200px;
+            
+    }
+	
+ 
+
+    
+        #pesquisar{
+            width: 337px;
+            height: 47px;
+            background: #F6F6F6;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 0px 5px 4px rgb(0 0 0 / 25%);
+            border-radius: 10px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            margin-top:88px;
+            color: #8E9299;
+            margin-left: 160px;
+        }      
+        
+        #logo{
+            margin-right: 179px;
+            margin-top: 68px;
+        }
+        #icone{
+            margin-top: 23px;
+        }
+        
+
+        #input::placeholder {
+            font-family: 'Lato';
+margin-left: 50px;
+
+        }
+        
+
+
+
+        /*    contatos  */
+         #contatos p{
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 36px;
+            
+            color: #000000;
+            clear: both;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+         }
+
+
+         #search_contatos {
+             display: flex;
+             margin: auto;
+             flex-direction: column;
+             width: 1440px;
+             
+             
+            }
+
+
+           p#textos3 {
+                margin-left: 177px;
+                margin-bottom: 10px;
+            }
+        
+            #search_contato {
+                background: #F6F6F6;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 945px;
+height: 48px;
+margin-left: 177px;
+margin-bottom: 38px;
+            } 
+#search_contato.sua_mensagem {
+    width: 945px;
+height: 338px;
+
+background: #F6F6F6;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+img#img_maps{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin-top:232px;
+ }
+p#endereco {
+    margin-top: 20px;
+    text-align: center;
+
+}
+img#contato_img {
+    margin: 87px auto;
+    display: flex;
+
+}
+
+
+#bloco1 {
+    float: left;
+    width: 50%;
+    height: 130px;
+    border-right: #000 solid 2px;
+   
+}
+
+
+#bloco2 {
+    float: left;
+    width: 38%;
+    height: 130px;
+    margin-left: 10%;
+
+
+}
+
+
+#bloco2 a{
+    margin:auto;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+margin-top:10px;
+color: #000000;
+}
+#bloco1 a{
+    margin: auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 22%;
+}
+
+
+         footer{
+            position:relative;
+            width:100%;
+            height:268px;
+            background-color:#252527;
+            text-align: center;
+            padding-top:50px;
+            float: left;
+            border-radius: 10px;
+            }
+
+
+            footer p{
+                font-size: 24px;
+                text-align: center;
+                font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+margin-bottom: 35px;
+color: #FFFFFF;
+
+
+            }
+
+
+@media only screen and (max-width:1300px) {
+
+
+
+
+    
+body {
+    border-radius: 10px;
+    border: 3px solid #000000;
+
+}
+
+
+    #menu_esquerdo {
+        display: none;
+    }
+
+
+    #logo {
+        display: none;
+    }
+    #pesquisar {
+        
+        
+display: none;
+    }
+
+    #slide {
+        width:80%;
+        height:448px;
+    }
+
+    #search_mobile {
+visibility:visible;
+margin-top: 28px;
+    margin-left: 25px;
+
+    }
+
+
+    #parte_superior{
+        height: 107px;
+        background: #F7F7F7;
+        border: 3px solid #F2F3F6;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  img#icone {
+    height: 108px;
+    margin-top: 0px;
+    width: 107px;
+  }
+
+  #menu_humburguer {
+    visibility: visible;
+    margin-top: 37px;
+    margin-right: 29px;
+}
+}           
