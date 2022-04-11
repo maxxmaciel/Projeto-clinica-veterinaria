@@ -33,7 +33,10 @@ body, html{
     
 
 
-
+#slide img {
+    display: flex;
+    margin: auto;
+}
 
 .texto{
 	font-family:novafonte;
@@ -629,15 +632,28 @@ color: #FFFFFF;
      }
 
 
+     #slide {
+        width:80%;
+        height: 503.25px;
+        margin-top: 160px;
+    
+    }
+     #slide img {
+            display: flex;
+        margin: auto;
+        
+        height: 546.180px;
+        width: 514.66px;
+    }
+
+
+
+
      #search_contato.sua_mensagem {
 
         width:68%;
      }
-body {
-    border-radius: 10px;
-    border: 3px solid #000000;
 
-}
 
 
     #menu_esquerdo {
@@ -654,10 +670,7 @@ body {
 display: none;
     }
 
-    #slide {
-        width:80%;
-        height:448px;
-    }
+   
 
     #search_mobile {
 visibility:visible;
@@ -668,11 +681,13 @@ margin-top: 28px;
 
 
     #parte_superior{
+        margin-top: 101px;
+        position: fixed;
         height: 107px;
         background: #F7F7F7;
         border: 3px solid #F2F3F6;
         box-sizing: border-box;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     }
   img#icone {
     height: 108px;
@@ -752,10 +767,28 @@ ul#caixa2 {
         
     }
 
+    #nossos_serviços {
+
+        font-size: 32px;
+    }
+
     #caixa2 img{
         height: 77px;
         width: 77px;
         
+    }
+    #miolo { 
+        height:407px;
+    }
+
+
+    #slide {
+        height: 311.05px;
+    }
+
+    #slide img {
+        height:337.7px;
+        width: 335px;
     }
 
 
@@ -783,6 +816,16 @@ ul#caixa2 {
         
     }
 
+    #nossos_serviços {
+
+        font-size: 25px;
+    }
+
+
+    #miolo { 
+        height:389px;
+    }
+
     #caixa2 img{
         height: 77px;
         width: 77px;
@@ -796,5 +839,12 @@ ul#caixa2 {
     }
 
 
+
+    #slide img {
+        height:210.06px;
+        width: 208.33px;
+        margin-top: 50px;
+
+    }
 
 }
