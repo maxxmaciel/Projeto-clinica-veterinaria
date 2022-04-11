@@ -9,8 +9,10 @@
 body, html{
     background-color:#F2F3F6;
     width:100%;
+    height:100%;
     overflow-x: hidden;
-
+    margin:0px;
+	padding:0px;
  
    
 }
@@ -607,10 +609,30 @@ color: #FFFFFF;
 
 @media only screen and (max-width:1300px) {
 
+    ul#caixa2 {
+
+        width: 100%;
+    }
+    ul#caixa3 {
+
+        width: 100%;
+    }
 
 
-
+    #search_contato {
+        width: 68%;
+     }
     
+
+     #search_contatos { 
+         width: 100%;
+     }
+
+
+     #search_contato.sua_mensagem {
+
+        width:68%;
+     }
 body {
     border-radius: 10px;
     border: 3px solid #000000;
@@ -663,4 +685,116 @@ margin-top: 28px;
     margin-top: 37px;
     margin-right: 29px;
 }
+#caixas {
+    display:grid;
+    width:100%;
+}
+
+#titulo_meio p {
+    text-align: center;
+}
+#textos {
+    width: 90%;
+}
+.b, .c, .d, .e, .f {
+    margin-top:100px;
+}
+
 }           
+
+@media only screen and (max-width:1160px) {
+#caixa3 img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+#caixa2 img{
+    height: 100px;
+    width: 100px;
+    
+}
+ul#caixa3 {
+    width: 95%;
+}
+
+
+
+
+
+ul#caixa2 {
+    width: 95%;
+}
+
+
+#caixa2 li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caixa3 li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+@media only screen and (max-width:804px) { 
+
+    #caixa3 img{
+        height: 77px;
+        width: 77px;
+        
+    }
+
+    #caixa2 img{
+        height: 77px;
+        width: 77px;
+        
+    }
+
+
+    #caixa3 p, #caixa2 p{
+
+        font-size: 22px;
+    }
+
+    #titulo_meio {
+
+        height: 100%;
+    } 
+    ul#caixa2 {
+        margin-top:0px;
+    }
+
+}
+
+
+@media only screen and (max-width:500px) { 
+
+    #caixa3 img{
+        height: 77px;
+        width: 77px;
+        
+    }
+
+    #caixa2 img{
+        height: 77px;
+        width: 77px;
+        
+    }
+
+
+    #caixa3 p, #caixa2 p{
+
+        font-size: 18px;
+    }
+
+
+
+}
