@@ -18,6 +18,7 @@ body, html{
 }
 
 #search_mobile {
+    cursor: pointer;
     visibility: hidden;
 }
   
@@ -69,6 +70,9 @@ main{
 }
 
 
+
+
+
 #caixas {
     position: relative;
     width: 1240px;
@@ -98,37 +102,147 @@ main{
     margin-top: 38px;
     
 }
+iframe {
+    width: 800px;
+    height: 619px;
+}
+
+
+
+
+.f > img{
+
+    inset: 0;
+    object-fit:cover;
+    z-index: -1;
+    transition: transform 200ms;
+}
+
+.e > img{
+
+    inset: 0;
+    object-fit:cover;
+    z-index: -1;
+    transition: transform 200ms;
+}
+
+
+.d > img{
+
+    inset: 0;
+    object-fit:cover;
+    z-index: -1;
+    transition: transform 200ms;
+}
+
+
+.c > img{
+
+    inset: 0;
+    object-fit:cover;
+    z-index: -1;
+    transition: transform 200ms;
+}
+
+
+.b > img{
+
+    inset: 0;
+    object-fit:cover;
+    z-index: -1;
+    transition: transform 200ms;
+}
+
+
+.a > img{
+
+    inset: 0;
+    object-fit:cover;
+    z-index: -1;
+    transition: transform 200ms;
+}
+
+
+#clinica:hover { 
+
+    transform: scale(1.05);
+}
+
+
+::-webkit-scrollbar{
+   
+  background-color: #F2F3F6;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #E51D1D;
+    border-radius: 10px;
+   border: #000 solid 2px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.96);
+}
+
+
+
+
+
+.f:hover > img{
+
+    transform: scale(1.05);
+}
+
+
+.a:hover > img{
+
+    transform: scale(1.05);
+}
+.b:hover > img{
+
+    transform: scale(1.05);
+}
+.c:hover > img{
+
+    transform: scale(1.05);
+}
+.d:hover > img{
+
+    transform: scale(1.05);
+}
+.e:hover > img{
+
+    transform: scale(1.05);
+}
 
 .a {
     width: 50%;
     float: left;
-  
+     cursor: pointer;
     margin: 20px auto;
 }
 .b {
     width: 50%;
     float: left;
-    
+    cursor: pointer;
     margin: 20px auto;
 }
 
 .c {
     width: 50%;
     float: left;
-  
+    cursor: pointer;
     margin: 20px auto;
 }
 .d {
     width: 50%;
     float: left;
-   
+    cursor: pointer;
     margin: 20px auto;
 }
 
 .e {
     width: 50%;
     float: left;
-   
+    cursor: pointer;
     margin: 20px auto;
 }
 
@@ -136,7 +250,7 @@ main{
    
         width: 50%;
         float: left;
-       
+        cursor: pointer;    
         margin: 20px auto;
 
     
@@ -280,6 +394,7 @@ margin-bottom: 30px;
 }
 
 #clinica{
+    cursor: pointer;
     margin-left: auto;
     margin-right: auto;
     margin-top: 145px; 
@@ -453,7 +568,17 @@ ul#caixa2 {
             margin-top: 68px;
         }
         #icone{
+            cursor: pointer;
             margin-top: 23px;
+            animation: notification 5s infinite;
+        }
+
+        @keyframes notification {
+             5% { transform: rotate(10deg);}
+             10% { transform: rotate(-10deg);}
+             15% { transform: rotate(10deg);}
+             20% { transform: rotate(0deg);}
+
         }
         
 
@@ -520,12 +645,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
 }
 
-img#img_maps{
+img#img_maps {
     display: flex;
     margin: auto;
+    width: 100px;
     flex-direction: column;
-    margin-top:232px;
- }
+    margin-top: 232px;
+}
 p#endereco {
     margin-top: 20px;
     text-align: center;
@@ -534,7 +660,7 @@ p#endereco {
 img#contato_img {
     margin: 87px auto;
     display: flex;
-
+    width: 100px;
 }
 
 
@@ -662,6 +788,8 @@ color: #FFFFFF;
 
 
     #logo {
+
+        cursor: pointer;
         display: none;
     }
     #pesquisar {
@@ -693,12 +821,14 @@ margin-top: 28px;
     height: 108px;
     margin-top: 0px;
     width: 107px;
+    cursor: pointer;
   }
 
   #menu_humburguer {
     visibility: visible;
     margin-top: 37px;
     margin-right: 29px;
+    cursor: pointer;
 }
 #caixas {
     display:grid;
