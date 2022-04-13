@@ -552,6 +552,14 @@ text-align: center;
 margin-bottom: 35px;
 color: #FFFFFF;
             }
+            ul#caixa3 img {
+                display: flex;
+                margin: auto;}
+
+                ul#caixa2 img 
+                {
+                    display: flex;
+                    margin: auto;}
 
 @media only screen and (max-width:1300px) {
 
@@ -709,7 +717,10 @@ ul#caixa2 {
 }
 
 @media only screen and (max-width:804px) { 
-
+    
+    img#clinica {
+        width: 90%;
+    }
     p.fontes_textos_tablet{
     font-size: 20px!important;
     }
@@ -753,7 +764,8 @@ ul#caixa2 {
 
 
     #caixa3 p, #caixa2 p{
-
+        width: 88%;
+        height: 64px;
         font-size: 22px;
     }
 
