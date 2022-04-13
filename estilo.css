@@ -133,18 +133,25 @@ iframe {
     margin: 20px auto;
 }
 
-#caixa a{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    float: left;
-    color: #000000;
-    margin-top: 20px;
-    width: 100%;
-}
+#caixa a {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        float: left;
+        display: flex;
+        color: #000000;
+        /* margin-top: 20px; */
+        padding-top: 20px;
+        /* padding: 20px; */
+        padding-bottom: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
 
 #caixas div{
     width: 500px;
@@ -759,7 +766,7 @@ ul#caixa2 {
 @media only screen and (max-width:500px) { 
     #caixas div {
         width: 80%;
-
+        height: auto;
     }
 
 
