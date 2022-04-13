@@ -707,14 +707,15 @@ ul#caixa2 {
 }
 
 @media only screen and (max-width:804px) { 
+
+  
+
     #caixas div {
         width: 341px;
         height: 267px;
     }
 
-    .a, .b, .c, .d, .e, .f {
-        height: 80%;
-    }
+  
 
     #caixa3 img{
         height: 77px;
@@ -759,11 +760,18 @@ ul#caixa2 {
     ul#caixa2 {
         margin-top:0px;
     }
+    
+#caixas { 
+        margin-top:auto; 
+    }
+    
 
 }
 
 
 @media only screen and (max-width:500px) { 
+
+   
     #caixas div {
         width: 80%;
         height: auto;
