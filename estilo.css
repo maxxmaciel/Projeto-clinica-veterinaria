@@ -670,7 +670,9 @@ margin-top: 28px;
     width: 100px;
     
 }
-
+#titulo_meio {
+    margin-top:auto;
+}
 
 #caixa2 img{
     height: 100px;
@@ -678,7 +680,7 @@ margin-top: 28px;
     
 }
 ul#caixa3 {
-    width: 95%;
+    width: 87%;
 }
 
 
@@ -686,7 +688,7 @@ ul#caixa3 {
 
 
 ul#caixa2 {
-    width: 95%;
+    width: 87%;
 }
 
 
@@ -708,7 +710,9 @@ ul#caixa2 {
 
 @media only screen and (max-width:804px) { 
 
-  
+    p.fontes_textos_tablet{
+    font-size: 20px!important;
+    }
 
     #caixas div {
         width: 341px;
@@ -723,9 +727,9 @@ ul#caixa2 {
         
     }
 
-    #nossos_serviços {
+    .fontes_title_tablet {
 
-        font-size: 32px;
+        font-size: 32px!important;
     }
 
     #caixa2 img{
@@ -770,7 +774,9 @@ ul#caixa2 {
 
 
 @media only screen and (max-width:500px) { 
-
+    p.fontes_textos_mobile{
+        font-size: 15px!important;
+        }
    
     #caixas div {
         width: 80%;
@@ -785,9 +791,9 @@ ul#caixa2 {
         
     }
 
-    #nossos_serviços {
-
-        font-size: 25px;
+    
+.fontes_title_mobile {
+        font-size: 25px!important;
     }
 
 
