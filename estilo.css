@@ -542,7 +542,7 @@ footer{
 }
 
 footer p{
-                font-size: 24px;
+                font-size: 24px!important;
                 text-align: center;
                 font-family: 'Lato';
 font-style: normal;
@@ -566,6 +566,7 @@ color: #FFFFFF;
 
                         display:none;
                     }
+                    
 
 @media only screen and (max-width:1300px) {
 
@@ -872,9 +873,7 @@ margin-top:50px;
 
 
 }
-footer p { 
-    font-size: 20px;
-}
+
 
 
 @media only screen and (max-width:500px) { 
@@ -940,7 +939,9 @@ footer p {
         padding-left: 40px;
         width: 63%;
     }
-
+footer {
+    padding-top: 14px;
+}
     
 .fontes_title_mobile {
         font-size: 25px!important;
@@ -986,12 +987,11 @@ footer p {
     }
     footer p{
       line-height: 0px!important;
+      font-size: 15px!important;
   }
     
 }
-footer p { 
-    font-size: 15px;
-}
+
 
 @media only screen and (max-width:400px) { 
 
