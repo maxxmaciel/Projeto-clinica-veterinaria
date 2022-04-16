@@ -254,6 +254,7 @@ transition: 1s;
     margin-bottom: 30px;
 }
 
+
 #clinica{
     cursor: pointer;
     margin-left: auto;
@@ -363,7 +364,7 @@ ul#caixa2 {
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 35px;
+
     align-items: center;
     margin-top: 79px;
 }
@@ -561,7 +562,30 @@ color: #FFFFFF;
                     display: flex;
                     margin: auto;}
 
+                    #redes-sociais { 
+
+                        display:none;
+                    }
+
 @media only screen and (max-width:1300px) {
+
+    #redes-sociais {
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-content: space-between;
+    }
+
+    
+#contatos {
+    height: auto; 
+}
+
+    .rede-social-1, .rede-social-2, .rede-social-3{
+    
+          margin:10%;
+    }
 
     ul#caixa2 {
 
@@ -673,6 +697,21 @@ margin-top: 28px;
 }           
 
 @media only screen and (max-width:1160px) {
+    #textos2 {
+        width: 73%!important;
+        margin-top: 42px;
+    }
+    img#img_maps { 
+        margin-top: 30px;
+
+    
+    }
+    #lado_direito { 
+        margin-top: 34px;
+        height: auto;
+    }
+    
+    
 #caixa3 img{
     height: 100px;
     width: 100px;
@@ -680,6 +719,7 @@ margin-top: 28px;
 }
 #titulo_meio {
     margin-top:auto;
+    height: auto;
 }
 
 #caixa2 img{
@@ -691,6 +731,10 @@ ul#caixa3 {
     width: 87%;
 }
 
+iframe {
+    width: 600px;
+    height: 419px;
+}
 
 
 
@@ -714,16 +758,47 @@ ul#caixa2 {
     align-items: center;
 }
 
+
 }
 
 @media only screen and (max-width:804px) { 
+    #search_contato {
+        width: 72%;
+        margin-left: 0%;
+    }
+    #search_contato.sua_mensagem {
+        width: 72%;
+    }
+    p#textos3 { 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    iframe {
+        width: 400px;
+        height: 319px;
+    }
+    
+    
+
+    #search_contatos {
+      
+        align-items: center;
+
+    }
     
     img#clinica {
         width: 90%;
     }
     p.fontes_textos_tablet{
     font-size: 20px!important;
+    line-height: 24px!important;
     }
+
+    a.fontes_textos_tablet{
+        font-size: 20px!important;
+        line-height: 24px!important;
+        }
+        
 
     #caixas div {
         width: 341px;
@@ -766,6 +841,8 @@ ul#caixa2 {
     #caixa3 p, #caixa2 p{
         width: 88%;
         height: 64px;
+        line-height: 22px;
+
         font-size: 22px;
     }
 
@@ -780,20 +857,67 @@ ul#caixa2 {
 #caixas { 
         margin-top:auto; 
     }
+#titulo_meio p{
+    width:93%;
     
+}
+#clinica {
+margin-top:50px;
+}
+#textos {
+    margin-top: 54px;
+}
 
+
+}
+footer p { 
+    font-size: 20px;
 }
 
 
 @media only screen and (max-width:500px) { 
     p.fontes_textos_mobile{
+        line-height: 18px!important;
+        
         font-size: 15px!important;
         }
+        p#textos3 { 
+            margin-left: auto;
+        }
+
+        iframe {
+            width: 362px;
+            height: 317px;
+            margin-top: 0px;
+        }
+        img#img_maps { 
+            width:17%;
+        }
+        a.fontes_textos_mobile{
+            line-height: 18px!important;
+        
+        font-size: 15px!important;
+            }
+            #bloco1 { 
+                height:68px;
+            }
+            #bloco2 { 
+                height:68px;
+            }
+        
    
     #caixas div {
         width: 80%;
         height: auto;
     }
+    #search_contato.sua_mensagem { 
+        height: 241px;
+    }
+    img#contato_img {
+      
+        width: 17%;
+    }
+
 
 
 
@@ -801,6 +925,14 @@ ul#caixa2 {
         height: 77px;
         width: 77px;
         
+    }
+    ul#caixa3 {
+        width: 100%;
+    }
+    ul#caixa2 { 
+        justify-content: space-between;
+        padding-left: 40px;
+        width: 63%;
     }
 
     
@@ -832,6 +964,59 @@ ul#caixa2 {
         width: 208.33px;
         margin-top: 50px;
 
+
+    }
+
+    #titulo_meio { 
+        margin-top: 56px;
+    }
+
+    #redes-sociais img{
+    
+        width: 100%;
+    }
+    footer { 
+        height:132px;
+    }
+    footer p{
+      line-height: 0px!important;
+  }
+    
+}
+footer p { 
+    font-size: 15px;
+}
+
+@media only screen and (max-width:400px) { 
+
+    iframe {
+        width: 302px;
+        height: 267px;
+    }
+    
+    
+
+
+    #caixa3 img {
+        height: 67px;
+    width: 67px;
+    }
+    #caixa2 img {
+        height: 67px;
+        width: 67px;
+    }
+    #caixa3 p, #caixa2 p { 
+        height: 36px;
+    }
+    #caixa a { 
+        font-size: 20px;
+    }
+    #search_contato.sua_mensagem { 
+        height: 200px;
+    }
+    #bloco2 {
+    
+        width: 39%;
     }
 
 }
