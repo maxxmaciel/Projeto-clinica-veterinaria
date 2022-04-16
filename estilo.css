@@ -859,6 +859,8 @@ ul#caixa2 {
     }
 #titulo_meio p{
     width:93%;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 #clinica {
@@ -1018,5 +1020,8 @@ footer p {
     
         width: 39%;
     }
+    #caixa3 li {
+      
+        margin-right: 16px;
 
 }
