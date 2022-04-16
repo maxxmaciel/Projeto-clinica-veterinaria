@@ -906,6 +906,10 @@ footer p {
             #bloco2 { 
                 height:68px;
             }
+
+            #caixa3 li { 
+                margin-right: 16px;
+            }
         
    
     #caixas div {
