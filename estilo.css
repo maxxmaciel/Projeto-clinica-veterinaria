@@ -222,6 +222,7 @@ iframe {
     margin: auto;
     height: 100%;
     width: 514.66px;
+    margin-top: 30px;
 }
 
 
@@ -617,6 +618,13 @@ color: #FFFFFF;
                     }
                     
 
+ 
+
+
+
+
+
+
 @media only screen and (max-width:1300px) {
 
 
@@ -636,6 +644,28 @@ color: #FFFFFF;
 #contatos {
     height: auto; 
 }
+
+#menu_esquerdo { 
+    z-index: 1;
+    width: 148px;
+    height: 262px;
+    right: 0;
+    top: 106px;
+    flex-direction: column;
+    position: fixed;
+    
+    border-right:#000 solid 2px;
+    border-left:#000 solid 2px;
+    border-bottom:#000 solid 2px;
+}
+
+#menu_esquerdo a {
+   margin-top: 30px; 
+   text-align: left;   
+   margin-right: auto;
+}
+
+
 
     .rede-social-1, .rede-social-2, .rede-social-3{
     
@@ -714,12 +744,7 @@ margin-top: 28px;
     cursor: pointer;
   }
 
-  #menu_humburguer {
-    visibility: visible;
-    margin-top: 37px;
-    margin-right: 29px;
-    cursor: pointer;
-}
+
 #caixas {
     display:grid;
     width:100%;
@@ -734,6 +759,74 @@ margin-top: 28px;
 .b, .c, .d, .e, .f {
     margin-top:100px;
 }
+
+/* MENU HUMBURGUER     */
+
+
+#menu_humburguer {
+    visibility: visible;
+    margin-top: 16px;
+    margin-right: 35px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu_humburguer__burguer {
+    width: 50px;
+    height: 6px;
+    background-color: #E51D1D;
+    border-radius:5px;
+    box-shadow: 0 2px 5px #000;
+
+    transition: all .5s ease-in-out;
+}
+.menu_humburguer__burguer::before,
+.menu_humburguer__burguer::after{
+   content: "";
+   position: absolute;
+   width: 50px;
+   height: 6px;
+   background-color: #E51D1D;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px #000;
+   transition: all .5s ease-in-out;
+
+
+}
+.menu_humburguer__burguer::before {
+
+    transform: translateY( -16px);
+
+}
+.menu_humburguer__burguer::after {
+
+    transform: translateY(16px);
+    
+}   
+
+#menu_humburguer.open .menu_humburguer__burguer {
+
+   transform: translateX(-50px);
+   background: transparent;
+   box-shadow: none;
+
+}
+#menu_humburguer.open .menu_humburguer__burguer::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+#menu_humburguer.open .menu_humburguer__burguer::after {
+
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+
 
 }           
 
@@ -798,6 +891,9 @@ ul#caixa2 {
     flex-direction: column;
     align-items: center;
 }
+
+
+
 
 
 }
@@ -873,6 +969,7 @@ ul#caixa2 {
     #slide img {
         height:337.7px;
         width: 335px;
+        margin-top: 0px;
     }
 
 
