@@ -3,8 +3,15 @@
      let menuOpen = false;
      let abrir_menu = document.getElementById("menu_esquerdo");
 
+
+
+
+
+
+
      navbar.addEventListener("click", () => {
      
+
 
 
      if(!menuOpen) {
@@ -18,8 +25,12 @@
         abrir_menu.style.display = "none";
      }
     
-  });
+
     
+  });
+   
+
+
     
 
 
