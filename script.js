@@ -7,10 +7,12 @@
 
 function agradecimentos(){
      document.getElementById("agradecimentos").style.display = "inline";
+     document.getElementById("body").style.overflow = "hidden";
   }
 function fechar_msgn(){
     
    document.getElementById("agradecimentos").style.display = "none";
+   document.getElementById("body").style.overflow = "scroll";
 }
 
      navbar.addEventListener("click", () => {
