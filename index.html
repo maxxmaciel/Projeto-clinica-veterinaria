@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="estilo.css" type="text/css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="imagem/png" href="./imagens/logo_mobile.png" />
 </head>
 
 <body>
@@ -230,7 +231,7 @@
     </section>
     <section id="contatos">
 
-      <form action="https://formsubmit.co/contato.maxmaciel12@gmail.com" method="POST">
+      <form >
         <a id="nossos_serviços" class="contato fontes_title_tablet fontes_title_mobile"> Contato</a>
         <div id="search_contatos">
 
@@ -253,11 +254,26 @@
           <input id="search_contato" class="sua_mensagem"> </input>
 
 
-          <button id="enviar_email" class="fontes_textos_tablet fontes_textos_mobile">
-               <strong>   Enviar </strong>  
+          <div onclick="agradecimentos()"    id="enviar_email" >
+            
+               <p  class="fontes_textos_tablet fontes_textos_mobile">   Enviar </p>  
+              </div>
+
+               <div id="agradecimentos"> 
+                 
+                 <div id="fechar_msgn" onclick="fechar_msgn()" >
+               x   
+                 </div>
+
+                
+                 <p  class="fontes_textos_tablet fontes_textos_mobile">
+                  Muito obrigado pelo seu <br> feedback !
+                 </p>
+                 <img src="./imagens/feliz.png">
+               </div>
 
 
-          </button>
+    
 
         </div>
         <img id="img_maps" src="./imagens/icons8-google-maps-250 1.png">

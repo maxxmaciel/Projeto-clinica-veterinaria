@@ -5,21 +5,25 @@
 
 
 
-
-
-
+function agradecimentos(){
+     document.getElementById("agradecimentos").style.display = "inline";
+  }
+function fechar_msgn(){
+    
+   document.getElementById("agradecimentos").style.display = "none";
+}
 
      navbar.addEventListener("click", () => {
      
 
 
 
-     if(!menuOpen) {
+     if(!menuOpen) {                 // menuOpen é falso, execute a caixa
        navbar.classList.add("open");
        menuOpen = true;
        abrir_menu.style.display = "flex";
 
-     } else {
+     } else {                         // se menuOpen não for igual a false, execute a caixa
         navbar.classList.remove("open");
         menuOpen = false;
         abrir_menu.style.display = "none";
