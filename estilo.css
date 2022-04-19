@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: Lato;
+    src: url(fontes/Lato/Lato-Regular.ttf);
+}
+
 body,
 html {
     background-color: #F2F3F6;
@@ -20,8 +25,6 @@ html {
 #body {
     overflow-y: scroll;
 }
-
-
 
 #enviar_email{
     background: #252527;
@@ -60,10 +63,7 @@ html {
     visibility: hidden;
 }
 
-@font-face {
-    font-family: Lato;
-    src: url(fontes/Lato/Lato-Regular.ttf);
-}
+
 
 #slide img {
     display: flex;
@@ -71,7 +71,7 @@ html {
 }
 
 .texto {
-    font-family: novafonte;
+
     font-size: 50px;
 }
 
@@ -105,8 +105,7 @@ main {
     width: 1240px;
     height: auto;
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto ;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 105px;
@@ -347,8 +346,7 @@ iframe {
 
 #clinica {
     cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     margin-top: 145px;
 }
 
@@ -356,15 +354,13 @@ iframe {
 #textos {
     margin-top: 76px;
     width: 1122px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
 }
 
 #textos2 {
     margin-top: 76px;
     width: 796px;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     text-align: center;
 }
 
@@ -389,8 +385,7 @@ iframe {
 }
 
 ul#caixa3 {
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     float: left;
     width: 1105px;
     display: flex;
@@ -401,8 +396,7 @@ ul#caixa3 {
 }
 
 ul#caixa2 {
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     float: left;
     width: 1105px;
     display: flex;
@@ -549,8 +543,7 @@ ul#caixa2 {
     line-height: 36px;
     color: #000000;
     clear: both;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     text-align: left;
 }
 
@@ -786,7 +779,7 @@ color: #FFFFFF;
     #menu_esquerdo a {
         margin-top: 30px;
         text-align: left;
-        margin-right: auto;
+        margin:auto;
     }
 
 
@@ -1062,8 +1055,7 @@ color: #FFFFFF;
     }
 
     p#textos3 {
-        margin-left: auto;
-        margin-right: auto;
+        margin:auto;
     }
 
     iframe {
@@ -1155,8 +1147,8 @@ color: #FFFFFF;
 
     #titulo_meio p {
         width: 93%;
-        margin-right: auto;
-        margin-left: auto;
+       margin:auto;
+        
 
     }
 
