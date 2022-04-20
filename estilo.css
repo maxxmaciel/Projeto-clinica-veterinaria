@@ -22,7 +22,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
+#body {
+    overflow-y: scroll;
+}
 
 #enviar_email{
     background: #252527;
@@ -837,7 +839,7 @@ color: #FFFFFF;
     #search_mobile {
         visibility: visible;
         margin-top: 28px;
-       
+        margin-left: 25px;
 
     }
 
@@ -887,7 +889,7 @@ color: #FFFFFF;
     #menu_humburguer {
         visibility: visible;
         margin-top: 16px;
-
+        margin-right: 35px;
         width: 60px;
         height: 60px;
         cursor: pointer;
@@ -1012,6 +1014,7 @@ color: #FFFFFF;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        width: 50%;
     }
 
     #caixa3 li {
@@ -1145,7 +1148,7 @@ color: #FFFFFF;
 
     #titulo_meio p {
         width: 93%;
-       margin:auto;
+        margin: 30px auto;
         
 
     }
@@ -1154,9 +1157,7 @@ color: #FFFFFF;
         margin-top: 50px;
     }
 
-    #textos {
-        margin-top: 54px;
-    }
+    
 
 
 }
@@ -1200,7 +1201,8 @@ color: #FFFFFF;
     }
 
     #caixa3 li {
-        margin-right: 16px;
+        width: 33%;
+        
     }
 
 
@@ -1242,9 +1244,9 @@ color: #FFFFFF;
     }
 
     ul#caixa2 {
-        justify-content: space-between;
-        padding-left: 40px;
-        width: 63%;
+        justify-content: space-evenly;
+      
+        display: flex;
     }
 
     footer {
@@ -1357,11 +1359,7 @@ html {
         width: 39%;
     }
 
-    #caixa3 li {
-
-        margin-right: 16px;
-
-    }
+   
 
     #slide img {
         margin-top: 0px !important;
