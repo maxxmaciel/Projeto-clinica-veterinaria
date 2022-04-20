@@ -1298,6 +1298,8 @@ color: #FFFFFF;
     footer p {
         line-height: 0px !important;
         font-size: 15px !important;
+        text-decoration: none !important;
+    color: white !important;
     }
 
     
