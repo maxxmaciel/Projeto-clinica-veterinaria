@@ -839,7 +839,7 @@ color: #FFFFFF;
     #search_mobile {
         visibility: visible;
         margin-top: 28px;
-        margin-left: 25px;
+      
 
     }
 
@@ -889,7 +889,7 @@ color: #FFFFFF;
     #menu_humburguer {
         visibility: visible;
         margin-top: 16px;
-        margin-right: 35px;
+        
         width: 60px;
         height: 60px;
         cursor: pointer;
