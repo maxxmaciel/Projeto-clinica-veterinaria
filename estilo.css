@@ -57,6 +57,7 @@ html {
 #search_mobile {
     cursor: pointer;
     visibility: hidden;
+    margin-left: 10px;
 }
 
 #menu_humburguer {
@@ -217,7 +218,7 @@ iframe {
     height: 181px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #F2F3F6;
 }
 
@@ -897,6 +898,7 @@ color: #FFFFFF;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-right: 10px;
     }
 
 
